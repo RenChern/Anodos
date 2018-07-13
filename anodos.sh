@@ -168,12 +168,12 @@ clear
 
 function important_information() {
  echo
- echo -e "upupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupupup"
+ echo -e "================================================================================"
  echo -e "$COIN_NAME Masternode is up and running listening on port ${GREEN}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${GREEN}$CONFIGFOLDER/$CONFIG_FILE${NC}"
  echo -e "VPS_IP:PORT ${GREEN}$NODEIP:$COIN_PORT${NC}"
  echo -e "MASTERNODE PRIVATEKEY is: ${GREEN}$COINKEY${NC}"
-  echo -e "downdowndowndowndowndowndowndowndowndowndowndowndowndowndowndowndowndowndowndowndown"
+  echo -e "==============================================================================="
 }
 
 function ans_start() {
